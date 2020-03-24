@@ -1,0 +1,126 @@
+body, html{
+    padding: 0;
+    margin: 0;
+        font-family: 'IBM Plex Mono', monospace;
+
+ }
+
+
+.haut{
+display: flex;
+justify-content: center;
+flex-direction: row;
+width: 20%;
+}
+
+    .nav{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        background-color:#e30909 ;
+        display: flex;
+        justify-content: space-around ;
+    }
+
+    .nav a{
+        text-align: center;
+        transition-duration: 0.1s;
+        display: block;
+        padding: 20px 32px;
+        color: white;
+        text-decoration: none;
+    }
+    .nav a:hover{
+        background-color: #F9BFB3;
+    }
+
+h2{
+  margin: 1%;
+  padding: 1%;
+  color: white;
+  background: linear-gradient(#FFB900, #FF8423);
+}
+
+
+h3{
+  font-style: italic;
+}
+
+
+.redditfond{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2%;
+  margin: 2%;
+
+}
+
+.haut{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 1%;
+  margin: 1%;
+  width: 50%;
+}
+
+
+
+.telecharger{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2%;
+  margin: 2%;
+
+}
+
+.button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 2%;
+  margin: 2%;
+
+}
+
+.frontpage{
+  display: flex;
+  flex-direction: row;
+  margin: 2%;
+  flex-grow: 2, 1, auto;
+}
+
+.pourquoi{
+  display: flex;
+  flex-direction: row-reverse;
+  margin:2%;
+  flex-grow: 2,1,auto;
+
+}
+
+.utiliser{
+  display: flex;
+  flex-direction: row;
+  margin:2%;
+  flex-grow: 2,1,auto;
+
+}
+
+.reseaux{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  margin: 2%;
+  padding: 2%;
+  background-color: #FFF223;
+  color: orange;
+}
+
+
+.button{
+text-decoration: none;
+font-size: 150%;}

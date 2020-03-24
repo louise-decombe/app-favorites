@@ -1,0 +1,92 @@
+body, html{
+    padding: 0;
+    margin: 0;
+    font-family: 'Monda', sans-serif;
+        }
+
+
+    .nav{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        background-color:#3ADA32 ;
+        display: flex;
+        justify-content: space-around ;
+    }
+
+    .nav a{
+        text-align: center;
+        transition-duration: 0.1s;
+        display: block;
+        padding: 20px 32px;
+        color: white;
+        text-decoration: none;
+    }
+
+    .nav a:hover{
+        background-color: #B5FEB1;
+    }
+
+  .fond{
+    display: flex;
+    flex-grow: row;
+  justify-content: center;
+  margin: 1%;
+  }
+
+p{
+  font-size: 150%;
+}
+  h2{
+
+    width: 10%;
+    margin-left: 50%;
+    margin-right: 50%;
+    padding: 1%;
+    color: white;
+    background: linear-gradient(#BBFFB8, #2EC627);
+  }
+
+
+  .presentation{
+
+  }
+
+.coeur{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 70%;
+  margin: 2%;
+  padding: 2%;
+  font-size: 150%;
+}
+
+.telecharger{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 50%;
+  margin: 2%;
+  padding: 2%;
+  font-size: 150%;
+}
+
+
+.reseaux{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  text-decoration: none;
+  margin: 2%;
+  padding: 2%;
+  background-color: #98F793;
+  color: green;
+}
+
+.plus{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
